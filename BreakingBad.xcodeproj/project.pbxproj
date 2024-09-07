@@ -16,6 +16,8 @@
 		9226E65A2C6E241100A2C0FD /* BreakingBadTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9226E6592C6E241100A2C0FD /* BreakingBadTests.swift */; };
 		9226E6642C6E241100A2C0FD /* BreakingBadUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9226E6632C6E241100A2C0FD /* BreakingBadUITests.swift */; };
 		9226E6662C6E241100A2C0FD /* BreakingBadUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9226E6652C6E241100A2C0FD /* BreakingBadUITestsLaunchTests.swift */; };
+		9226E6732C6E26B800A2C0FD /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9226E6722C6E26B800A2C0FD /* DetailsViewController.swift */; };
+		9226E6752C6E2BD300A2C0FD /* BreakingBad.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9226E6742C6E2BD300A2C0FD /* BreakingBad.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		9226E65F2C6E241100A2C0FD /* BreakingBadUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BreakingBadUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9226E6632C6E241100A2C0FD /* BreakingBadUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreakingBadUITests.swift; sourceTree = "<group>"; };
 		9226E6652C6E241100A2C0FD /* BreakingBadUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreakingBadUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		9226E6722C6E26B800A2C0FD /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		9226E6742C6E2BD300A2C0FD /* BreakingBad.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreakingBad.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,7 +105,9 @@
 			children = (
 				9226E6422C6E241000A2C0FD /* AppDelegate.swift */,
 				9226E6442C6E241000A2C0FD /* SceneDelegate.swift */,
+				9226E6742C6E2BD300A2C0FD /* BreakingBad.swift */,
 				9226E6462C6E241000A2C0FD /* ViewController.swift */,
+				9226E6722C6E26B800A2C0FD /* DetailsViewController.swift */,
 				9226E6482C6E241000A2C0FD /* Main.storyboard */,
 				9226E64B2C6E241100A2C0FD /* Assets.xcassets */,
 				9226E64D2C6E241100A2C0FD /* LaunchScreen.storyboard */,
@@ -259,8 +265,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				9226E6472C6E241000A2C0FD /* ViewController.swift in Sources */,
+				9226E6752C6E2BD300A2C0FD /* BreakingBad.swift in Sources */,
 				9226E6432C6E241000A2C0FD /* AppDelegate.swift in Sources */,
 				9226E6452C6E241000A2C0FD /* SceneDelegate.swift in Sources */,
+				9226E6732C6E26B800A2C0FD /* DetailsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
